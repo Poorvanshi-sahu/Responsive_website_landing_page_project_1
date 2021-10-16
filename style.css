@@ -1,0 +1,290 @@
+                            * {
+                                margin: 0;
+                                padding: 0;
+                                font-family: "gilroy";
+                                box-sizing: border-box;
+                            }
+                            
+                            html,
+                            body {
+                                height: 100%;
+                                width: 100%;
+                            }
+                            
+                            #main {
+                                min-height: 100vh;
+                                width: 100%;
+                                /* background-color: hotpink; */
+                            }
+                            
+                            #top {
+                                position: relative;
+                                min-height: 73vh;
+                                width: 100%;
+                                /* background-color: aqua; */
+                                background-image: url(https://images.unsplash.com/photo-1589505603958-adb54f67a6c8?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80);
+                                background-position: center;
+                                background-size: cover;
+                            }
+                            
+                            #top img {
+                                position: absolute;
+                                height: 30vh;
+                                /* bottom: 177px; */
+                                bottom: 0;
+                                right: 0;
+                                transform: translate(-50% -50%);
+                            }
+                            
+                            #bottom {
+                                min-height: 27vh;
+                                width: 100%;
+                                background-color: black;
+                                display: flex;
+                            }
+                            
+                            #blft {
+                                min-height: inherit;
+                                width: 78.5%;
+                                background-color: black;
+                                padding: 20px 30px;
+                                display: flex;
+                                justify-content: space-between;
+                            }
+                            
+                            #one {
+                                min-height: 100%;
+                                width: 17%;
+                                /* background-color: purple; */
+                                padding: 10px 20px;
+                            }
+                            
+                            #one {
+                                color: white;
+                            }
+                            
+                            #one h1 {
+                                margin-bottom: 15px;
+                            }
+                            
+                            #one h3 {
+                                margin-bottom: 8px;
+                            }
+                            
+                            #two {
+                                height: 100%;
+                                width: 33%;
+                                /* background-color: lightslategray; */
+                                padding: 10px 0px;
+                                font-size: 12px;
+                                color: rgb(194, 189, 189);
+                            }
+                            
+                            #three {
+                                height: 100%;
+                                width: 35%;
+                                /* background-color: maroon; */
+                                padding: 10px 20px;
+                                position: relative;
+                            }
+                            
+                            #aa {
+                                color: white;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                position: absolute;
+                                left: 5%;
+                                /* top: 14%; */
+                            }
+                            
+                            #aa a {
+                                text-decoration: none;
+                                color: white;
+                                margin-right: 13px;
+                            }
+                            
+                            #bb {
+                                position: absolute;
+                                color: white;
+                                right: 8%;
+                                /* top: 16%; */
+                            }
+                            
+                            #bb a {
+                                text-decoration: none;
+                                color: white;
+                            }
+                            
+                            #nav {
+                                height: 90px;
+                                width: 100%;
+                                /* background-color: midnightblue; */
+                                padding: 20px 60px;
+                                display: flex;
+                                align-items: center;
+                                justify-items: center;
+                                justify-content: space-between;
+                            }
+                            
+                            #lt {
+                                width: 18%;
+                                /* background-color: navajowhite; */
+                                display: flex;
+                                justify-content: space-between;
+                            }
+                            
+                            #lt a {
+                                text-decoration: none;
+                                color: white;
+                            }
+                            
+                            #lt #tone {
+                                font-weight: 900;
+                                font-size: 25px;
+                                margin-bottom: 8px;
+                                ;
+                            }
+                            
+                            #lt i {
+                                color: white;
+                                margin-right: 10px;
+                            }
+                            
+                            #top #dw {
+                                position: absolute;
+                                top: 60%;
+                                left: 6%;
+                                color: white;
+                                font-size: 140px;
+                            }
+                            
+                            #iw {
+                                /* margin-bottom: 5%; */
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                            }
+                            
+                            #cc {
+                                position: absolute;
+                                color: white;
+                                bottom: 8%;
+                                left: 5%;
+                                display: flex;
+                                justify-items: center;
+                                align-items: center;
+                            }
+                            
+                            #cc a {
+                                text-decoration: none;
+                                color: white;
+                                margin-right: 10px;
+                            }
+                            
+                            #cc i {}
+                            
+                            #dd {
+                                position: absolute;
+                                display: flex;
+                                font-weight: 1000;
+                                right: 8%;
+                                bottom: 10%;
+                            }
+                            
+                            #c1 {
+                                height: 20px;
+                                width: 20px;
+                                background-color: white;
+                                border-radius: 50%;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                            }
+                            
+                            #c2 {
+                                height: 20px;
+                                width: 20px;
+                                background-color: white;
+                                border-radius: 50%;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                margin-left: 20px;
+                            }
+                            
+                            #brht {
+                                min-height: inherit;
+                                width: 21.7%;
+                                background-color: rgb(255, 196, 0);
+                                padding: 20px 40px;
+                                color: black;
+                                /* line-height: 20px; */
+                            }
+                            
+                            #brht h1 {
+                                margin-bottom: 7px;
+                            }
+                            
+                            #brht h6 {
+                                margin-bottom: 5px;
+                                font-weight: 600;
+                            }
+                            
+                            #brht h3 {
+                                margin-bottom: 5px;
+                            }
+                            
+                            #brht h5 {
+                                margin-bottom: 5px;
+                                font-weight: 380;
+                            }
+                            
+                            @media(max-width:400px) {
+                                #top img {
+                                    height: 102px;
+                                    bottom: 0;
+                                }
+                                #top {
+                                    min-height: 100vh;
+                                }
+                                #nav {
+                                    padding: 37px 33px;
+                                }
+                                #lt {
+                                    width: 39%;
+                                }
+                                #lt i {
+                                    margin-right: 4px;
+                                }
+                                #top #dw {
+                                    font-size: 67px;
+                                }
+                                #bottom {
+                                    flex-direction: column;
+                                }
+                                #blft {
+                                    flex-direction: column;
+                                }
+                                #one {
+                                    width: 135%;
+                                    margin-bottom: 30px;
+                                }
+                                #two {
+                                    width: 135%;
+                                    margin-bottom: 30px;
+                                    padding: 10px 20px;
+                                }
+                                #three {
+                                    width: 135%;
+                                    min-height: 25vh;
+                                    margin-bottom: 30px;
+                                }
+                                #brht {
+                                    width: 100%;
+                                }
+                                #tone {
+                                    font-weight: 900;
+                                    /* font-size: 15px; */
+                                }
+                            }
